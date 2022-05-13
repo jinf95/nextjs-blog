@@ -14,3 +14,55 @@ a {
 * {
   box-sizing: border-box;
 }
+nav{
+  background-color: #161616;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: sticky;
+  top: 0%;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2vw 0 0;
+  width: 30%;
+}
+
+li{
+  list-style: none;
+  color: #ffffff;
+}
+li:hover{
+  color: #0070f3;
+}
+
+h1{
+  color: #0070f3;
+}
+
+h3{
+  color: #4499fad6;
+}
+
+p{
+  font-weight: bold;
+}
+
+main{
+  padding: 1rem 3rem 1rem 3rem;
+  min-height: 80vh;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: #161616;
+  margin: 0%;
+  height: 10vh;
+  color: #ffffff;
+  
+}
